@@ -59,7 +59,7 @@ nav a:hover {
 
 /* Seção de banner */
 #banner {
-    background: url('../imgs/banner-arquitetura.jpg') no-repeat center center/cover;
+    background: url('../imgs/banner-arquitetura.png') no-repeat center center/cover;
     height: 60vh;
     display: flex;
     justify-content: center;
@@ -94,6 +94,21 @@ section h3 {
     border-bottom: 2px solid #ccc;
     display: inline-block;
     padding-bottom: 0.5rem;
+}
+
+#sobre-nos {
+    background-color: #fff; 
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    text-align: center;
+}
+
+#sobre-nos p {
+    max-width: 800px;
+    margin: 1rem auto;
+    font-size: 1.1rem;
+    color: #555;
 }
 
 .galeria {
